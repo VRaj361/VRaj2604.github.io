@@ -114,7 +114,9 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder; 
+  display: inline;
+}
 
 small {
   font-size: 80%; }
@@ -8432,9 +8434,12 @@ h1, h2, h3, h4, h5,
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8); }
   .slider-text p strong {
-    font-weight: 700; }
+    font-weight: 700;
+    display: inline;
+  }
     .slider-text p strong a {
-      color: #000000; }
+      color: #000000;
+      display: inline; }
 
 .slider-text .breadcrumbs {
   font-size: 16px;
@@ -9260,7 +9265,13 @@ textarea.form-control {
   font-weight: 700;
   font-size: 30px;
   color: #3e64ff;
-  display: block; }
+  display: inline; }
+.plus{
+  font-weight: 700;
+  font-size: 30px;
+  color: #3e64ff;
+  display: inline;
+}
 
 .ftco-counter .text span {
   display: block;
